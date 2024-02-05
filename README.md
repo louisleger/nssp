@@ -1,5 +1,5 @@
 ## NSSP
-Collection of Data Analysis of Neural Signals &amp; Signal Processing
+Collection of Data Analysis of Neural Signals &amp; Signal Processing projects.
 
 This repository contains code and reports for 3 projects:
 
