@@ -1,0 +1,12 @@
+Task:
+24 subjects watched a complete 25-minute black-and-white television episode (the Twilight Zone, https://en.wikipedia.org/wiki/The_Lateness_of_the_Hour). They had no instructions other than to attend to the movie. An eyetracking calibration period preceded the movie; the movie begins at TR=15.
+
+Image acquisition:
+MRI data were collected on a 3T full-body scanner (Siemens Skyra) with a 16-channel head coil. Functional images were acquired using a T2*-weighted echo planar imaging (EPI) pulse sequence (TR 1500 ms, TE 28 ms, flip angle 64, whole-brain coverage 27 slices of 4 mm thickness, in-plane resolution 3 x 3 mm2, FOV 192 x 192 mm2), ascending interleaved. Anatomical images were acquired using a T1-weighted MPRAGE pulse sequence (0.89 mm3 resolution).
+
+Image pre-processing:
+The first two volumes of each functional run were discarded for T1 equilibration. Preprocessing was performed in FSL, including slice time correction, motion correction, linear detrending, high-pass filtering (140 s cutoff), and coregistration and affine transformation of the functional volumes to a template brain (MNI). Functional images were resampled to 3 mm isotropic voxels. 
+
+
+File descriptions:
+sub# refers to set of individual subject data. There are 24 subjects and thus 24 files.
